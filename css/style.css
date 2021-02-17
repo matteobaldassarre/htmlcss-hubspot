@@ -100,7 +100,7 @@ a {
 
 .login-btn {
     border: 1px solid rgb(237, 127, 98);
-    padding: 10px 10px;
+    padding: 9px 10px;
     border-radius: 5px;
     color: rgb(237, 127, 98);
 }
@@ -116,7 +116,12 @@ a {
 /* 2nd Section */
 .second-section .col-left {
     width: 50%;
-    line-height: 80px;
+    vertical-align: middle;
+}
+
+.second-section .col-left img {
+    padding-top: 20px;
+    height: 45px;
 }
 
 .second-section .col-right {
@@ -126,6 +131,7 @@ a {
 
 .second-section .col-right li a {
     color: rgb(56, 70, 89);
+    font-size: 14px;
 }
 
 .second-section .col-right .fa-chevron-down {
@@ -146,4 +152,47 @@ a {
 }
 /* End 2nd Section */
 
+/* 3rd Section */
+.third-section {
+    background-color: rgb(254, 246, 240);
+    height: 600px;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-image: url(../img/jumbotron.png);
+    background-position: 145px 43px;
+}
+
+.third-section .wide-container {
+    padding-right: 500px;
+    padding-top: 50px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: rgb(56, 70, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.third-section p {
+    line-height: 28px;
+}
+
+.third-section .gethubspotfree-btn {
+    display: inline-block;
+    padding: 15px 22px;
+    margin: 30px 0;
+    font-size: 13px;
+}
+/* 3rd Section */
+
+/* 4th Section */
+.fourth-section {
+    height: 60px;
+    background-color: rgb(187, 233, 228);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+/* 4th Section End */
 /* HEADER */
