@@ -9,3 +9,55 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 /* RESET */
+
+/* COMMON */
+.wide-container {
+    width: 75%;
+    margin: 0 auto;
+    /* TEST */
+    height: 60px;
+    background-color: aquamarine;
+    /* TEST */
+}
+
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* COMMON */
+
+/* HEADER */
+header {
+    background-color: rgb(246, 249, 253);
+    border-bottom: 1px solid black;
+}
+
+.first-section .col-left {
+    /* TEST */
+    background-color: blue;
+    /* TEST */
+    width: 50%;
+}
+
+.first-section .col-right {
+    /* TEST */
+    background-color: red;
+    /* TEST */
+    width: 50%;
+}
+
+.first-section li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.first-section li a {
+    text-decoration: none;
+    color: black;
+}
+/* HEADER */
