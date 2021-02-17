@@ -8,16 +8,17 @@
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
 /* RESET */
+
 
 /* COMMON */
 .wide-container {
     width: 75%;
     margin: 0 auto;
-    /* TEST */
-    height: 60px;
-    background-color: aquamarine;
-    /* TEST */
 }
 
 .col {
@@ -29,35 +30,120 @@ body {
     display: table;
     clear: both;
 }
+
+.fa-chevron-down {
+    font-size: 13px;
+}
+
+.gethubspotfree-btn {
+    padding: 10px 10px;
+    background-color: rgb(237, 127, 98);
+    color: white;
+    border-radius: 5px;
+}
+
+.first-section li, .second-section li {
+    display: inline-block;
+    list-style-type: none;
+}
 /* COMMON */
 
+
 /* HEADER */
-header {
+
+/* 1st Section */
+.first-section {
     background-color: rgb(246, 249, 253);
     border-bottom: 1px solid black;
 }
 
 .first-section .col-left {
-    /* TEST */
-    background-color: blue;
-    /* TEST */
     width: 50%;
 }
 
 .first-section .col-right {
-    /* TEST */
-    background-color: red;
-    /* TEST */
     width: 50%;
 }
 
 .first-section li {
-    display: inline-block;
-    list-style-type: none;
+    line-height: 60px;
 }
 
-.first-section li a {
-    text-decoration: none;
-    color: black;
+/* 1st Section - Left Column */
+.first-section .col-left li a {
+    font-size: 14px;
+    color: rgb(56, 70, 89);
 }
+
+.first-section .col-left li:first-child {
+    padding-right: 10px;
+}
+
+.col-left .fa-chevron-down {
+    padding-right: 10px;
+}
+/* 1st Section - Left Column */
+
+
+/* 1st Section - Right Column */
+.fa-search {
+    color:  rgb(73, 161, 186);
+}
+
+.first-section .col-right {
+    text-align: right;
+}
+
+.first-section .col-right li a {
+    font-size: 14px;
+}
+
+.login-btn {
+    border: 1px solid rgb(237, 127, 98);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(237, 127, 98);
+}
+
+.first-section .col-right li:nth-child(2) {
+    padding: 0 18px 0 12px;
+}
+/* 1st Section - Right Column */
+
+/* End 1st Section */
+
+
+/* 2nd Section */
+.second-section .col-left {
+    width: 50%;
+    line-height: 80px;
+}
+
+.second-section .col-right {
+    width: 50%;
+    text-align: right;
+}
+
+.second-section .col-right li a {
+    color: rgb(56, 70, 89);
+}
+
+.second-section .col-right .fa-chevron-down {
+    padding: 0 12px;
+}
+
+.second-section .col-right li {
+    padding-left: 12px;
+    line-height: 60px;
+}
+
+.second-section .col-right li:nth-child(2) {
+    padding-right: 12px;
+}
+
+.second-section .col-right .fa-chevron-down {
+    padding-right: 0;
+}
+/* End 2nd Section */
+
 /* HEADER */
