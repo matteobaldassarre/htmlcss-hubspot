@@ -405,5 +405,73 @@ h1 {
     font-size: 30px;
     line-height: 35px;
 }
+
+/* 6th Section Grill */
+.grill {
+    /* TEST */
+    margin-top: 50px;
+}
+
+.sixth-section .col-one,
+.sixth-section .col-two,
+.sixth-section .col-three,
+.sixth-section .col-four,
+.sixth-section .col-five,
+.sixth-section .col-six,
+.sixth-section .col-seven,
+.sixth-section .col-eight {
+    text-align: center;
+    width: 25%;
+    padding: 15px 0;
+}
+
+.sixth-section .col-one,
+.sixth-section .col-two,
+.sixth-section .col-three {
+    border-right: 1px solid white;
+}
+
+.sixth-section .col-five,
+.sixth-section .col-six,
+.sixth-section .col-seven,
+.sixth-section .col-eight {
+    border-top: 1px solid white;
+}
+
+.sixth-section .col-five,
+.sixth-section .col-six,
+.sixth-section .col-seven {
+    border-right: 1px solid white;
+}
+
+.sixth-section .col-one .fa-handshake {
+    display: block;
+    font-size: 36px;
+    color: white;
+}
+
+.sixth-section .grill span {
+    display: block;
+    color: white;
+}
+
+.sixth-section .grill .big-data {
+    margin: 10px 0;
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.sixth-section .grill .little-plus {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.sixth-section .grill .col {
+    font-size: 12px;
+}
+
+/* 6th Section Grill */
 /* End 6th Section */
 /* END MAIN */
