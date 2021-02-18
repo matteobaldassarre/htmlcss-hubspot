@@ -12,6 +12,10 @@ body {
 a {
     text-decoration: none;
 }
+
+li {
+    list-style-type: none;
+}
 /* RESET */
 
 
@@ -53,10 +57,19 @@ a {
     color: white;
     border-radius: 5px;
     font-size: 14px;
+    display: inline-block;
 }
 
 .fa-check-circle {
     color: rgb(237, 127, 98);
+}
+
+.line-col {
+    width: 90%;
+    display: inline-block;
+    border-top: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 /* COMMON */
 
@@ -166,12 +179,12 @@ a {
 
 /* 3rd Section */
 .third-section {
-    background-color: rgb(254, 246, 240);
+    background-color: rgb(255, 240, 235);
     height: 600px;
     background-size: 1300px;
     background-repeat: no-repeat;
     background-image: url(../img/jumbotron.png);
-    background-position: 145px 43px;
+    background-position: 390px 75px;
 }
 
 .third-section .wide-container {
@@ -215,8 +228,6 @@ h1 {
 
 .fifth-section {
     background-color: rgb(245, 249, 253);
-    /* TEST */
-    height: 1000px;
 }
 
 /* Slim container */
@@ -241,9 +252,6 @@ h1 {
 
 /* Infobox */
 .infobox {
-    /* TEST */
-    height: 300px;
-    /* TEST */
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 1px rgba(211, 211, 211, 0.76);
@@ -260,14 +268,14 @@ h1 {
 .infobox .col-left img {
     margin-top: 60px;
     height: 90px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 /* End Infobox left */
 
 /* Infobox right */
 .infobox .col-right {
     width: 60%;
-    padding-top: 50px;
+    padding: 55px 0;
 }
 
 .infobox .col-right li {
@@ -310,6 +318,92 @@ h1 {
 
 /* End Infobox */
 
+/* Hub Types */
+.hub-types {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hub-types .col-left,
+.hub-types .col-center,
+.hub-types .col-right {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 1px rgba(211, 211, 211, 0.76);
+    border-radius: 5px;
+    background-color: white;
+    padding: 0 20px;
+    line-height: 25px;
+    color: rgb(56, 70, 89);
+}
+
+.hub-types .col-left img,
+.hub-types .col-center img,
+.hub-types .col-right img {
+    margin-top: 10px;
+    height: 90px;
+}
+
+.hub-types .col-left h3,
+.hub-types .col-center h3,
+.hub-types .col-right h3 {
+    margin: 20px 0;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+.hub-types .col-left li,
+.hub-types .col-center li,
+.hub-types .col-right li {
+    text-align: left;
+}
+
+.hub-types .col-left .learnmore-btn,
+.hub-types .col-center .learnmore-btn,
+.hub-types .col-right .learnmore-btn {
+    margin: 25px 0;
+}
+
+.hub-types .col-left span,
+.hub-types .col-center span,
+.hub-types .col-right span {
+    font-family:  Arial;
+    color: rgb(56, 70, 89);
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.hub-types .col-center {
+    width: 30%;
+    margin: 0 5%;
+}
+
+.hub-types .col-right {
+    width: 30%;
+}
+/* End Hub Types */
+
 /* End 5th Section */
 
+/* 6th Section */
+.sixth-section {
+    /* TEST */
+    background-color: rgb(73, 161, 186);
+    height: 800px;
+}
+
+.sixth-section .heading {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    line-height: 25px;
+}
+
+.sixth-section .heading h2 {
+    padding: 40px 0;
+    font-size: 30px;
+    line-height: 35px;
+}
+/* End 6th Section */
 /* END MAIN */
