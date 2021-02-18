@@ -481,14 +481,16 @@ h1 {
 
 /* 7th Section */
 .seventh-section {
+    /* TEST */
     height: 700px;
 }
 
+/* Slim Container */
 .seventh-section .slim-container .col-left {
     margin-top: 60px;
-    padding-right: 290px;
+    padding-right: 180px;
     padding-left: 50px;
-    width: 50%;
+    width: 40%;
 }
 
 .seventh-section .slim-container span {
@@ -502,5 +504,72 @@ h1 {
     font-family: Arial;
     color: rgb(56, 70, 89);
 }
+
+.seventh-section .slim-container .col-right {
+    width: 50%;
+    margin-top: 60px;
+    line-height: 60px;
+}
+
+.seventh-section .slim-container .col-right img {
+    vertical-align: middle;
+    margin-right: 12px;
+    height: 22%;
+    width: 22%;
+}
+/* End Slim Container */
+
+/* Wide Container */
+.seventh-section .wide-container .col-left {
+    margin: 100px 0;
+    width: 50%;
+    padding-right: 70px;
+}
+
+.seventh-section .wide-container .col-left h3 {
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(56, 70, 89);
+}
+
+.seventh-section .wide-container .col-left p {
+    line-height: 25px;
+    color: rgb(56, 70, 89);
+}
+
+.seventh-section .wide-container .col-left a {
+    padding: 20px 30px;
+    font-size: 13px;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.seventh-section .wide-container .col-left span {
+    color: rgb(56, 70, 89);
+    display: inline-block;
+    font-size: 13px;
+}
+
+.seventh-section .wide-container .col-right {
+    margin-top: 50px;
+    width: 50%;
+    padding: 0 50px 200px 200px;
+}
+
+.seventh-section .wide-container .col-right img {
+    width: 100%;
+}
+/* End Wide Container */
 /* End 7th Section */
 /* END MAIN */
+
+/* FOOTER */
+/* 8th Section */
+.eight-section {
+    /* TEST */
+    background-color: rgb(55, 72, 89);
+    height: 800px;
+}
+/* End 8th Section */
+/* END FOOTER */
