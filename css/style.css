@@ -25,6 +25,11 @@ li {
     margin: 0 auto;
 }
 
+.slim-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .col {
     float: left;
 }
@@ -232,11 +237,9 @@ h1 {
 
 /* Slim container */
 .fifth-section .slim-container {
-    width: 60%;
-    margin: 0 auto;
     text-align: center;
     color: rgb(56, 70, 89);
-    padding: 40px 40px;
+    padding: 40px 100px;
 }
 
 .fifth-section .slim-container img {
@@ -388,9 +391,9 @@ h1 {
 
 /* 6th Section */
 .sixth-section {
-    /* TEST */
-    background-color: rgb(73, 161, 186);
-    height: 800px;
+    /* GRADIENTE DA AGGIUGNERE */
+    background-image: linear-gradient(to top, rgb(79, 174, 174), rgb(73, 161, 185));
+    padding-bottom: 60px;
 }
 
 .sixth-section .heading {
@@ -412,6 +415,7 @@ h1 {
     margin-top: 50px;
 }
 
+/* Selectors for Grill Lines */
 .sixth-section .col-one,
 .sixth-section .col-two,
 .sixth-section .col-three,
@@ -443,6 +447,7 @@ h1 {
 .sixth-section .col-seven {
     border-right: 1px solid white;
 }
+/* End Selectors for Grill Line */
 
 .sixth-section .col-one .fa-handshake {
     display: block;
@@ -471,7 +476,31 @@ h1 {
 .sixth-section .grill .col {
     font-size: 12px;
 }
-
-/* 6th Section Grill */
+/* End 6th Section Grill */
 /* End 6th Section */
+
+/* 7th Section */
+.seventh-section {
+    height: 700px;
+}
+
+.seventh-section .slim-container .col-left {
+    margin-top: 60px;
+    padding-right: 290px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.seventh-section .slim-container span {
+    display: block;
+    color: rgb(56, 70, 89);
+}
+
+.seventh-section .slim-container h6 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: Arial;
+    color: rgb(56, 70, 89);
+}
+/* End 7th Section */
 /* END MAIN */
