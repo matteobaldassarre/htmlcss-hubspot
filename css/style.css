@@ -40,6 +40,10 @@ li {
     clear: both;
 }
 
+.blue-text {
+    color: rgb(56, 70, 89);
+}
+
 .fa-chevron-down {
     font-size: 13px;
 }
@@ -102,7 +106,6 @@ li {
 /* 1st Section - Left Column */
 .first-section .col-left li a {
     font-size: 14px;
-    color: rgb(56, 70, 89);
 }
 
 .first-section .col-left li:first-child {
@@ -160,7 +163,6 @@ li {
 }
 
 .second-section .col-right li a {
-    color: rgb(56, 70, 89);
     font-size: 14px;
 }
 
