@@ -89,6 +89,8 @@ li {
 .first-section {
     background-color: rgb(246, 249, 253);
     border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
 }
 
 .first-section .col-left {
@@ -147,6 +149,9 @@ li {
 
 
 /* 2nd Section */
+.second-section {
+    padding-top: 60px;
+}
 .second-section .col-left {
     width: 50%;
     vertical-align: middle;
