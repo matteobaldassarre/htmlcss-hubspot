@@ -384,6 +384,17 @@ h1 {
     margin-bottom: 20px;
 }
 
+.hub-types .col p::after {
+    content: "";
+    display: block;
+    vertical-align: middle;
+    border-top: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 1px;
+    width: 100%;
+}
+
 .hub-types .col-center {
     width: 30%;
     margin: 0 5%;
@@ -397,20 +408,19 @@ h1 {
 /* End 5th Section */
 
 /* 6th Section */
-.sixth-section {
-    /* GRADIENTE DA AGGIUGNERE */
+.grid {
     background-image: linear-gradient(to top, rgb(79, 174, 174), rgb(73, 161, 185));
     padding-bottom: 60px;
 }
 
-.sixth-section .heading {
+.grid .heading {
     text-align: center;
     color: white;
     font-family: Arial;
     line-height: 25px;
 }
 
-.sixth-section .heading h2 {
+.grid .heading h2 {
     padding: 40px 0;
     font-size: 30px;
     line-height: 35px;
@@ -418,148 +428,148 @@ h1 {
 
 /* 6th Section Grill */
 .grill {
-    /* TEST */
     margin-top: 50px;
 }
 
 /* Selectors for Grill Lines */
-.sixth-section .col-one,
-.sixth-section .col-two,
-.sixth-section .col-three,
-.sixth-section .col-four,
-.sixth-section .col-five,
-.sixth-section .col-six,
-.sixth-section .col-seven,
-.sixth-section .col-eight {
+.grid .col-one,
+.grid .col-two,
+.grid .col-three,
+.grid .col-four,
+.grid .col-five,
+.grid .col-six,
+.grid .col-seven,
+.grid .col-eight {
     text-align: center;
     width: 25%;
     padding: 15px 0;
 }
 
-.sixth-section .col-one,
-.sixth-section .col-two,
-.sixth-section .col-three {
+.grid .col-one,
+.grid .col-two,
+.grid .col-three {
     border-right: 1px solid white;
 }
 
-.sixth-section .col-five,
-.sixth-section .col-six,
-.sixth-section .col-seven,
-.sixth-section .col-eight {
+.grid .col-five,
+.grid .col-six,
+.grid .col-seven,
+.grid .col-eight {
     border-top: 1px solid white;
 }
 
-.sixth-section .col-five,
-.sixth-section .col-six,
-.sixth-section .col-seven {
+.grid .col-five,
+.grid .col-six,
+.grid .col-seven {
     border-right: 1px solid white;
 }
 /* End Selectors for Grill Line */
 
-.sixth-section .col-one .fa-handshake {
+.grid .col-one .fa-handshake {
     display: block;
     font-size: 36px;
     color: white;
 }
 
-.sixth-section .grill span {
+.grid .grill span {
     display: block;
     color: white;
 }
 
-.sixth-section .grill .big-data {
+.grid .grill .big-data {
     margin: 10px 0;
     font-size: 32px;
     font-family: Arial;
     font-weight: bold;
 }
 
-.sixth-section .grill .little-plus {
+.grid .grill .little-plus {
     display: inline-block;
     font-size: 20px;
     vertical-align: middle;
 }
 
-.sixth-section .grill .col {
+.grid .grill .col {
     font-size: 12px;
 }
 /* End 6th Section Grill */
 /* End 6th Section */
 
 /* 7th Section */
-.seventh-section {
-    /* TEST */
-    height: 700px;
-}
+
 
 /* Slim Container */
-.seventh-section .slim-container .col-left {
+.customers .slim-container .col-left {
     margin-top: 60px;
     padding-right: 180px;
     padding-left: 50px;
     width: 40%;
 }
 
-.seventh-section .slim-container span {
+.customers .slim-container span {
     display: block;
 }
 
-.seventh-section .slim-container h6 {
+.customers .slim-container h6 {
     font-size: 40px;
     margin-bottom: 30px;
     font-family: Arial;
 }
 
-.seventh-section .slim-container .col-right {
+.customers .slim-container .logo-list {
     width: 50%;
     margin-top: 60px;
     line-height: 60px;
 }
 
-.seventh-section .slim-container .col-right img {
-    vertical-align: middle;
-    margin-right: 12px;
-    height: 22%;
+.customers .slim-container .logo-list li {
+    display: inline-block;
     width: 22%;
+    margin-right: 12px;
+}
+
+.customers .slim-container .logo-list img {
+    vertical-align: middle;
+    width: 100%;
 }
 /* End Slim Container */
 
 /* Wide Container */
-.seventh-section .wide-container .col-left {
+.customers .wide-container .col-left {
     margin: 100px 0;
     width: 50%;
     padding-right: 70px;
 }
 
-.seventh-section .wide-container .col-left h3 {
+.customers .wide-container .col-left h3 {
     font-family: Arial;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.seventh-section .wide-container .col-left p {
+.customers .wide-container .col-left p {
     line-height: 25px;
 }
 
-.seventh-section .wide-container .col-left a {
+.customers .wide-container .col-left a {
     padding: 20px 30px;
     font-size: 13px;
     display: inline-block;
     margin: 30px 0;
 }
 
-.seventh-section .wide-container .col-left span {
+.customers .wide-container .col-left span {
     display: inline-block;
     font-size: 13px;
 }
 
-.seventh-section .wide-container .col-right {
+.customers .wide-container .col-right {
     margin-top: 45px;
     width: 50%;
     padding: 0 50px 0px 200px;
 }
 
-.seventh-section .wide-container .col-right img {
+.customers .wide-container .col-right img {
     width: 100%;
 }
 /* End Wide Container */
